@@ -193,7 +193,7 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
             }
         });
         if (!Places.isInitialized()) {
-            Places.initialize(getApplicationContext(), "AIzaSyB78Eb-yxSCQ86wtC84AP6wagq8HmNJbZM");
+            Places.initialize(getApplicationContext(), "key here");
         }
 
 
